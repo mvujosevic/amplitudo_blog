@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body{
+  font-family: 'Orbitron', sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.article-box{
+  padding-bottom: 35px;
+  width: 100%;
+}
+
+.article-container{
+   width: 900px;
+   background-color: #fff;
+   padding: 30px;
+}
+
+#title{
+  color: white;
+  text-align: center;
+  font-size: 320%;
+  border-bottom: 3px black;
+  margin-right: 5%;
+  text-decoration-color: blue;
+  margin: 50px;
+  padding: 5%;
+  height: 250px;
+  text-shadow: 0 1px 13px black;
+}
+#title:hover{
+  cover:black;
+}
+
+ .top{
+  background-image: url("../image1.jpg");
+  image-resolution: 100%;
+  margin-right: -12.5%;
+  margin-left: -12.5%;
+}
+.btn {
+  background-color: rgba(0, 123, 255, 0.41);
+}
+
+.form-inline{
+  display: block;
+  text-align: center;
+}
+.article_img{
+  width: 100%;
+  height: 100%;
+  padding: 120px;
+  background-size: contain !important ;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.article_img:hover{
+  background-color: red;
+}
+
+article{
+  transition: border-radius 0.5s;
+  max-width: 33%;
+  max-height: 30%;
+ display: inline-block;
+ background-size: cover;
+ margin-bottom: 15px;
+ border:2px solid #5091da;
+ padding: 2%;
+ border-radius: 25px;
+
+}
+article: hover{
+  border-radius: 70px;
+  background-color: red;
+}
+
+
+article img{
+  width: 75%;
+  margin-bottom:35px;
+}
+.blog_post:hover{
+  transition: border-radius 0.5s;
+  border-radius: 90px;
+}
+.blog_post:onclick{
+  color:red;
+}
+
+.login{
+  position: absolute;
+right: 247px;
+}
+
+.reg{
+  position: absolute;
+right: 140px;
+}
